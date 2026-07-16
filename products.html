@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | AG Energy Solutions</title>
+  <meta name="description" content="Browse Shell lubricant product PDFs from AG Energy Solutions in grid or list view." />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="products-page">
+  <div class="preloader" aria-hidden="true">
+    <div class="loader-orbit"><span></span><span></span><span></span></div>
+    <p>Loading product systems</p>
+  </div>
+
+  <canvas id="particle-field" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="page-frame" aria-hidden="true"></div>
+
+  <header class="site-header" data-reveal>
+    <a class="brand" href="index.html#home" aria-label="AG Energy Solutions home">
+      <span class="brand-mark"><img src="assets/logo.png" alt="" /></span>
+      <span>
+        <strong>AG Energy Solutions</strong>
+        <small>Authorized distributors for Shell Lubricants</small>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="index.html#marine">Marine Coatings</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="catalog-hero section-shell">
+      <div class="catalog-hero-copy" data-reveal>
+        <span class="kicker">Product Library</span>
+        <h1>Shell product data sheets, ready when your team needs them.</h1>
+        <p>Browse every available lubricant PDF in a premium grid or compact list. Click any product to open its respective PDF in a new tab.</p>
+      </div>
+    </section>
+
+    <section class="catalog-section section-shell">
+      <div class="catalog-toolbar glass-panel" data-reveal>
+        <div>
+          <span class="kicker">All Products</span>
+          <h2>Product PDFs</h2>
+          <p id="product-count">0 products</p>
+        </div>
+        <div class="catalog-controls">
+          <label class="search-field" for="product-search">
+            <span>Search products</span>
+            <input id="product-search" type="search" placeholder="Search by product name..." autocomplete="off" />
+          </label>
+          <div class="view-toggle" aria-label="Catalog view toggle">
+            <button class="active" type="button" data-view="grid">Grid</button>
+            <button type="button" data-view="list">List</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-shell" data-view="grid" data-reveal>
+        <div id="product-catalog" class="product-catalog" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer section-shell">
+    <div class="footer-grid">
+      <div data-reveal>
+        <span class="brand footer-brand"><span class="brand-mark"><img src="assets/logo.png" alt="" /></span><strong>AG Energy Solutions</strong></span>
+        <p>SB 23, Highland Corporate Centre, Kapurbawdi Junction, Thane - 400607</p>
+      </div>
+      <div data-reveal>
+        <h3>Contact</h3>
+        <a href="tel:02249249200">022 4924 9200</a>
+        <a href="mailto:sales@infinityent.net.in">sales@infinityent.net.in</a>
+      </div>
+      <div data-reveal>
+        <h3>Quick Access</h3>
+        <a href="index.html#products">Product Systems</a>
+        <a href="index.html#services">Industries</a>
+        <a href="index.html#marine">Marine Coatings</a>
+      </div>
+    </div>
+    <div class="footer-bottom">Copyright © 2026 AG Energy Solutions. Designed as a premium industrial experience.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="product-catalog.js"></script>
+</body>
+</html>
