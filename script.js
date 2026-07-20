@@ -12,6 +12,21 @@ window.addEventListener('load', () => {
   setTimeout(() => preloader.classList.add('hidden'), 450);
 });
 
+const themeSwitch = document.querySelector('.theme-switch input');
+if (themeSwitch) {
+  themeSwitch.checked = document.body.classList.contains('light-theme');
+  
+  themeSwitch.addEventListener('change', (e) => {
+    if (e.target.checked) {
+      document.body.classList.add('light-theme');
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.body.classList.remove('light-theme');
+      localStorage.setItem('theme', 'dark');
+    }
+  });
+}
+
 menuToggle.addEventListener('click', () => {
   const isOpen = nav.classList.toggle('open');
   menuToggle.setAttribute('aria-expanded', String(isOpen));
@@ -31,7 +46,7 @@ const revealObserver = new IntersectionObserver((entries) => {
       revealObserver.unobserve(entry.target);
     }
   });
-}, { threshold: 0.16 });
+}, { threshold: 0.05 });
 
 document.querySelectorAll('[data-reveal]').forEach((element, index) => {
   element.style.transitionDelay = `${Math.min(index * 55, 420)}ms`;
