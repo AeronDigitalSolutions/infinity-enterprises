@@ -11,17 +11,17 @@ const PRODUCTS = [
   },
   {
     "name": "SHELL OMALA S2 G 460",
-    "file": "assets/Products PDF/OMALA S2 G 460.pdf",
+    "file": "assets/Products PDF/OMALA S G 460.pdf",
     "category": "Gear Oil"
   },
   {
     "name": "SHELL OMALA S2 G 100",
-    "file": "assets/Products PDF/OMALA S2 G 100.pdf",
+    "file": "assets/Products PDF/OMALA S G 100.pdf",
     "category": "Gear Oil"
   },
   {
     "name": "SHELL OMALA S2 G 150",
-    "file": "assets/Products PDF/OMALA S2 G 150.pdf",
+    "file": "assets/Products PDF/OMALA S G 150.pdf",
     "category": "Gear Oil"
   },
   {
@@ -166,7 +166,7 @@ const PRODUCTS = [
   },
   {
     "name": "SHELL GADUS S2 V 220C 2",
-    "file": "assets/Products PDF/GADUS S2 V 220C 2.pdf",
+    "file": "assets/Products PDF/GADUS S3 V 220 C2.pdf",
     "category": "Greases"
   },
   {
@@ -186,22 +186,22 @@ const PRODUCTS = [
   },
   {
     "name": "SHELL INDUSTRIAL GREASE EP2",
-    "file": "assets/Products PDF/INDUSTRIAL GREASE EP2.pdf",
+    "file": "assets/Products PDF/INDUSTRIAL EP 2.pdf",
     "category": "Greases"
   },
   {
     "name": "SHELL MULTIPURPOSE GREASE 3",
-    "file": "assets/Products PDF/MULTIPURPOSE GREASE 3.pdf",
+    "file": "assets/Products PDF/SHELL MULTIPURPOSE 3.pdf",
     "category": "Greases"
   },
   {
     "name": "SHELL HYDRAULIC OIL 46",
-    "file": "assets/Products PDF/HYDRAULIC OIL 46.pdf",
+    "file": "assets/Products PDF/SHELL HYDRAULIC 46.pdf",
     "category": "Hydraulic Oil"
   },
   {
     "name": "SHELL HYDRAULIC OIL 68",
-    "file": "assets/Products PDF/HYDRAULIC OIL 68.pdf",
+    "file": "assets/Products PDF/SHELL HYDRAULIC 68.pdf",
     "category": "Hydraulic Oil"
   },
   {
@@ -221,7 +221,7 @@ const PRODUCTS = [
   },
   {
     "name": "SHELL TELLUS S2 MX 46",
-    "file": "assets/Products PDF/TELLUS S2 MX 46.pdf",
+    "file": "assets/Products PDF/TELLUS S2 MX 46 .pdf",
     "category": "Hydraulic Oil"
   },
   {
@@ -236,7 +236,7 @@ const PRODUCTS = [
   },
   {
     "name": "SHELL TELLUS S1 M 46",
-    "file": "assets/Products PDF/TELLUS S1 M 46.pdf",
+    "file": "assets/Products PDF/TELLUS S1 M 46 .pdf",
     "category": "Hydraulic Oil"
   },
   {
@@ -301,12 +301,12 @@ const PRODUCTS = [
   },
   {
     "name": "SHELL TURBO OIL T 32",
-    "file": "assets/Products PDF/TURBO OIL T 32.pdf",
+    "file": "assets/Products PDF/TURBO T 32.pdf",
     "category": "Turbine Oil"
   },
   {
     "name": "SHELL TURBO OIL T 46",
-    "file": "assets/Products PDF/TURBO OIL T 46.pdf",
+    "file": "assets/Products PDF/TURBO T 46.pdf",
     "category": "Turbine Oil"
   },
   {
@@ -331,7 +331,7 @@ const PRODUCTS = [
   },
   {
     "name": "SHELL FLEET HD 15W40 CI4+",
-    "file": "assets/Products PDF/FLEET HD 15W40 CI4+.pdf",
+    "file": "assets/Products PDF/FLEET HD 15 W 40.pdf",
     "category": "Engine Oil"
   },
   {
@@ -351,7 +351,7 @@ const PRODUCTS = [
   },
   {
     "name": "RIMULA ALL PURPOSE DIESEL ENGINE OIL 20W-40",
-    "file": "assets/Products PDF/RIMULA ALL PURPOSE DIESEL ENGINE OIL 20W-40.pdf",
+    "file": "assets/Products PDF/SHELL RIMULA ALL PURPOSE 20W40.pdf",
     "category": "Engine Oil"
   },
   {
